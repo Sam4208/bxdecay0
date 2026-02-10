@@ -201,6 +201,8 @@ GSL_, ROOT_ or whatever).
 - Release 1.2.0:
 
   - Add Ga68, Sc44, Sc44m, Se83 generators (cosmogenics)
+
+- Unofficial mod (Spratt 10/02/2026) Cu64 Cu66 Decays
     
     
 .. _SuperNEMO: http://supernemo.org/

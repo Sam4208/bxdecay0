@@ -42,6 +42,9 @@
 #include <bxdecay0/Ca48.h>
 #include <bxdecay0/Cd112low.h>
 #include <bxdecay0/Cd113.h>
+#include <bxdecay0/Cu64.h> // Added 10/02/2026
+#include <bxdecay0/Cu66.h> // Added 10/02/2026
+#include <bxdecay0/Cd113.h>
 #include <bxdecay0/Co60.h>
 #include <bxdecay0/Cs136.h>
 #include <bxdecay0/Cs137.h>
@@ -2113,6 +2116,8 @@ namespace bxdecay0 {
         } else if (name_starts_with(chnuclide_, "C14")) {
         } else if (name_starts_with(chnuclide_, "Ca48")) {
         } else if (name_starts_with(chnuclide_, "Cd113")) {
+        } else if (name_starts_with(chnuclide_, "Cu64")) { //Added 10/02/2026
+        } else if (name_starts_with(chnuclide_, "Cu66")) { //Added 10/02/2026
         } else if (name_starts_with(chnuclide_, "Co60")) {
         } else if (name_starts_with(chnuclide_, "Cs136")) {
         } else if (name_starts_with(chnuclide_, "Cs137")) {
@@ -2465,6 +2470,12 @@ namespace bxdecay0 {
       }
       if (name_starts_with(chnuclide_, "Cd113")) {
         Cd113(prng_, event_, 0., tdnuc);
+      }
+      if (name_starts_with(chnuclide_, "Cu66")) { //added 10/02/2026
+        Cu66(prng_, event_, 0., tdnuc);
+      }
+      if (name_starts_with(chnuclide_, "Cu64")) { // added 10/02/2026
+        Cu64(prng_, event_, 0., tdnuc);
       }
       if (name_starts_with(chnuclide_, "Co60")) {
         Co60(prng_, event_, 0., tdnuc);

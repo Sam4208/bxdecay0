@@ -140,6 +140,8 @@ set(BxDecay0_HEADERS
   bxdecay0/Cd112low.h
   bxdecay0/Cd113.h
   bxdecay0/Co60.h
+  bxdecay0/Cu66.h # Added from 10/02/2026
+  bxdecay0/Cu64.h # Added from 10/02/2026
   bxdecay0/Cs136.h
   bxdecay0/Cs137.h
   bxdecay0/Eu147.h
@@ -330,6 +332,8 @@ set(BxDecay0_SOURCES
   bxdecay0/Ca48.cc
   bxdecay0/Cd112low.cc
   bxdecay0/Cd113.cc
+  bxdecay0/Cu66.cc # Added from 10/02/2026
+  bxdecay0/Cu64.cc # Added from 10/02/2026
   bxdecay0/Co60.cc
   bxdecay0/Cs136.cc
   bxdecay0/Cs137.cc
